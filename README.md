@@ -20,7 +20,7 @@ Usage:
 ```
 
 # Examples
-> See [examples/print_image.c](https://github.com/D4yvid/p2c/tree/main/examples/print_image.c)
+> See [examples/print_image.c](https://github.com/D4yvid/p2c/tree/master/examples/print_image.c)
 
 # Building
 ```
