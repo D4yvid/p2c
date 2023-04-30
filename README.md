@@ -14,6 +14,7 @@ version: 0.1-dev
 Usage:
         -i              The input file used to convert
         -o              The output file to write after converting
+        -f              Set the pixel indexing format (use -f -l to list all)
         -v              Show the program version
         -h              Show this help menu
 
