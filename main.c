@@ -162,7 +162,7 @@ static int compile_image(const char *input, const char *output)
 			{
 				write_pixel_value(outfile, image_data, x, y, width, height, channels);
 
-				if (y + 1 < height)
+				if (x + 1 < width)
 				{
 					fputc(',', outfile);
 				}
@@ -170,7 +170,7 @@ static int compile_image(const char *input, const char *output)
 
 			fprintf(outfile, "}");
 
-			if (x + 1 < width)
+			if (y + 1 < height)
 			{
 				fputc(',', outfile);
 			}
