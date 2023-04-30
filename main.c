@@ -122,8 +122,8 @@ static int compile_image(const char *input, const char *output)
 		"\t.height = %d,\n"
 		"\t.format = %d,\n"
 		"\t.pixels = {",
-		width,
-		height,
+		pixel_output_format == FORMAT_XY ? width : height,
+		pixel_output_format == FORMAT_XY ? height : width,
 		header_name,
 		width,
 		height,
