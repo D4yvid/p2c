@@ -114,7 +114,7 @@ static int compile_image(const char *input, const char *output)
 	/** create variable definition */
 	fprintf(
 		outfile,
-		"struct {\n"
+		"static struct {\n"
 		"\tint width, height, format;\n"
 		"\tunsigned int pixels[%d][%d];\n"
 		"} %s_data = {\n"
